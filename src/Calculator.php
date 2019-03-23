@@ -2,7 +2,7 @@
 
 namespace Lee\Calculator;
 
-use Lee\Calculator\interfaces\CalculatorInterface;
+use Lee\Calculator\interfaces\Calculator as CalculatorInterface;
 
 class Calculator
 {

@@ -2,7 +2,7 @@
 
 namespace Lee\Calculator\interfaces;
 
-interface CalculatorInterface
+interface Calculator
 {
     public function add(string $num1, string $num2): string;
     public function minus(string $num1, string $num2): string;

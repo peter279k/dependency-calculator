@@ -2,9 +2,9 @@
 
 namespace Lee\Calculator\modules;
 
-use Lee\Calculator\interfaces\CalculatorInterface;
+use Lee\Calculator\interfaces\Calculator;
 
-class BcMathCalculator implements CalculatorInterface
+class BcMathCalculator implements Calculator
 {
     public function add(string $num1, string $num2): string
     {
@@ -30,7 +30,7 @@ class BcMathCalculator implements CalculatorInterface
     public function divide(string $num1, string $num2): string
     {
         if ((int)$num2 === 0) {
-            throw \InvalidArgumentException('The zero operand not allowed!');
+            throw new \InvalidArgumentException('The zero operand not allowed!');
         }
 
         return \bcdiv($num1, $num2);

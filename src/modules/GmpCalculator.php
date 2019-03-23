@@ -2,9 +2,9 @@
 
 namespace Lee\Calculator\modules;
 
-use Lee\Calculator\interfaces\CalculatorInterface;
+use Lee\Calculator\interfaces\Calculator;
 
-class GmpCalculator implements CalculatorInterface
+class GmpCalculator implements Calculator
 {
     public function add(string $num1, string $num2): string
     {
@@ -30,7 +30,7 @@ class GmpCalculator implements CalculatorInterface
     public function divide(string $num1, string $num2): string
     {
         if ((int)$num2 === 0) {
-            throw \InvalidArgumentException('The zero operand not allowed!');
+            throw new \InvalidArgumentException('The zero operand not allowed!');
         }
 
         return \gmp_div($num1, $num2);
