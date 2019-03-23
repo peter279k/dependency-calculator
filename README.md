@@ -1,5 +1,6 @@
 # Dependency Calculator
 
+[![Build Status](https://travis-ci.org/peter279k/dependency-calculator.svg?branch=master)](https://travis-ci.org/peter279k/dependency-calculator)
 
 ## Introduction
 - This is the demonsration for SITCON 2019 talk.
