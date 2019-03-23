@@ -4,7 +4,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/peter279k/dependency-calculator/badge.svg?branch=master)](https://coveralls.io/github/peter279k/dependency-calculator?branch=master)
 
 ## Introduction
-- This is the demonsration for SITCON 2019 talk.
+- This is the demonsration for [SITCON 2019 talk](https://sitcon.org/2019/agenda/48cc5d8a-30c4-4310-b9f4-0411096c617e/).
 
 ## Usage
 Here is some examples about how to calculate two numbers.
