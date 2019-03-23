@@ -1,6 +1,7 @@
 # Dependency Calculator
 
 [![Build Status](https://travis-ci.org/peter279k/dependency-calculator.svg?branch=master)](https://travis-ci.org/peter279k/dependency-calculator)
+[![Coverage Status](https://coveralls.io/repos/github/peter279k/dependency-calculator/badge.svg?branch=master)](https://coveralls.io/github/peter279k/dependency-calculator?branch=master)
 
 ## Introduction
 - This is the demonsration for SITCON 2019 talk.
