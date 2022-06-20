@@ -3,7 +3,7 @@
     "description": "This is about simple calculator with depency injection pattern",
     "type": "library",
     "require": {
-        "php": "^7.4",
+        "php": "^7.4 || ^8.0",
         "ext-gmp": "*",
         "ext-bcmath": "*"
     },
