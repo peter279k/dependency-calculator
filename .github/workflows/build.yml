@@ -20,7 +20,7 @@ jobs:
         with:
           php-version: ${{ matrix.php-versions }}
           extensions: mbstring, pdo, pdo_mysql, intl, zip, bcmath, gmp
-          coverage: none
+          coverage: pcov
 
       - name: Check PHP Version
         run: php -v
@@ -37,4 +37,4 @@ jobs:
       - name: Upload coverage results
         env:
           COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_TOKEN }}
-        run: vendor/bin/php-coveralls --coverage_clover=build/logs/clover.xml -v
+        run: vendor/bin/php-coveralls --coverage_clover=./build/logs/clover.xml -v
